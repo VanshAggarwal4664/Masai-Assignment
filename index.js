@@ -7,3 +7,13 @@ function findEven(nums){
     }
   }
 }
+findEven(nums);
+
+function findOdd(nums){
+    for(let i=0;i<nums.length;i++){
+      if(nums[i]%2!=0){
+          console.log("this is even number",nums[i])
+      }
+    }
+  }
+findOdd(nums)
